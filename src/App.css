@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --crimson: crimson;
+    --white: white;
+    --ncolor :#0FFBB7;
+    --bcolor: #6c63ff;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+.flex {
+    display: flex;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.wd-30 {
+    width: 30;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.wd-60 {
+    width: 60%;
+}
+
+.wd-70 {
+    width: 70%;
+}
+
+.wd-80 {
+    width: 80%;
+}
+
+.wd-90 {
+    width: 90%;
+}
+
+.white {
+    color: var(--white);
+}
+
+.header {
+    height: 10vh;
+    background-color: var(--crimson);
+}
+
+.headerContainer {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.companyNname {
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.navList {
+    list-style: none;
+}
+
+.navListItem {
+    float: left;
+    margin-top: 30px;
+}
+
+.navListItemLinks {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--white);
+
+}
+
+.photoDiv {
+    width: 70%;
+    height: auto;
+}
+.registration{
+    width:80%;
+    margin:0px auto;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrationBox ,.loginBox {
+    width: 40%;
+    height: 50vh;
+    border: 3px solid var(--bcolor);
+    box-shadow: -10px 5px 10px var(--crimson);
+}
+.loginBox{
+    height: 40vh;
+}
+.flexDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.textDiv h2{
+    margin-bottom: 20px;
+}
+.text{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Items {
+    padding: 20px;
+}
+
+.input {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--ncolor);
+    border: none;
+    outline: none;
+}
+.input:focus{
+    border:2px solid var(--bcolor);
+}
+.butonDiv{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top:20px;
+    padding:10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--crimson);
+    color :var(--white);
+    font-size: 17px;
+}
+.button:hover{
+    background-color: var(--ncolor);
+    color:black;
+}
+.alreadyLogin{
+    margin-top:40px;
+    text-align: center;
+}
