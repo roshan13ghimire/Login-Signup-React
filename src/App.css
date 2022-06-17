@@ -165,3 +165,23 @@
     margin-top:40px;
     text-align: center;
 }
+.invalid{
+    display: none;
+}
+.responsive h1{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color:var(--crimson);
+}
+.hurray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 40vh;
+    color:var(--crimson);
+}
+.textDiv h1, .textDiv h2{
+    color:var(--crimson);
+}

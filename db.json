@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Roshan Ghimire",
+      "username": "roshan13ghimire",
+      "email": "roshan13ghimire@gmail.com",
+      "password": "roshan13ghimire",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "username": "test12",
+      "email": "test@gmail.com",
+      "password": "test12",
+      "id": 2
+    }
+  ]
+}
